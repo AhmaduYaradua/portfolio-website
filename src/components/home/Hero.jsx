@@ -1,5 +1,5 @@
 "use client";
-import { Github, Linkedin, SquareArrowOutUpRight } from "lucide-react";
+import { Github, Linkedin, SquareArrowOutUpRight, Twitter } from "lucide-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Layout from "./Layout";
@@ -49,7 +49,7 @@ function Hero() {
     //     </div>
     //   </div>
     // </section>
-    <main className="flex items-center text-black w-full min-h-screen">
+    <main className="flex items-center text-black bg-white dark:bg-black w-full min-h-screen dark:text-white 2xl">
       <Layout className="pt-0">
         <div className="flex items-center justify-between w-full">
           <div className="w-1/2">
@@ -59,18 +59,18 @@ function Hero() {
               alt="."
             />
           </div>
-          <div className="w-1/2 flex flex-col items-center self-center">
+          <div className="w-1/2 flex flex-col items-center self-center ml-10">
             <AnimatedText
               text="Turning your vision into reality with code and design"
-              className="!text-6xl !text-left"
+              className="!text-6xl"
             />
-            <p className="my-4 text-base font-medium">
+            <p className="my-4 text-base font-medium text-center">
               As a skilled full stack developer, I am dedicated to turning ideas
               into innovative web applications.Explore my latest projects and
               articles, showcasing my expertise in React.js and web developement
             </p>
             <div>
-              <button className="border border-black bg-black text-white 3 p-3 rounded-full mr-2">
+              <button className="border border-black dark:border-white bg-black text-white 3 p-3 rounded-full mr-2">
                 <Link href={resume} download="Resume.pdf" target={"_blank"}>
                   Download CV
                   {/* <span>
@@ -84,12 +84,37 @@ function Hero() {
                 </Link>
               </button>
             </div>
+            <div className="flex gap-2 ml-5 mt-4">
+              <motion.a
+                href="https://github.com/AhmaduYaradua"
+                whileHover={{ y: -4 }}
+                whileTap={{ scale: 0.9 }}
+              >
+                <Github className="border rounded-full" />
+              </motion.a>
+              <motion.a
+                href="https://www.linkedin.com/in/ahmad-yaradua-074918142?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B42HyNPmfRiai1lMF7gIU4g%3D%3D"
+                whileHover={{ y: -4 }}
+              >
+                <Linkedin className="border rounded-full" />
+              </motion.a>
+              <motion.a
+                href="https://x.com/Ahmadu_Yaradua"
+                whileHover={{ y: -4 }}
+              >
+                <Twitter className="border rounded-full" />
+              </motion.a>
+            </div>
           </div>
         </div>
       </Layout>
       <HireMe />
       <div className="absolute right-8 bottom-8 inline-block w-44">
-        <img src="bulb-image.png" alt="." className="w-full h-auto" />
+        <img
+          src="erasebg-transformed2.png"
+          alt="."
+          className="w-full h-auto bg-white dark:bg-black"
+        />
       </div>
     </main>
   );
