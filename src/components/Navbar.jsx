@@ -57,8 +57,8 @@ function Navbar() {
   };
 
   return (
-    <nav className="flex items-center border-b border-black dark:border-white dark:text-white bg-white relative dark:bg-black justify-between w-full px-10 py-8 font-medium">
-      <h2 className="font-bold text-3xl animate-bounce">
+    <nav className="flex items-center border-b border-black dark:border-white dark:text-white bg-white relative dark:bg-black justify-between w-full px-10 z-10 lg:px-16 md:px-12 sm:px-8 py-8 font-medium">
+      <h2 className="font-bold text-3xl lg:text-2xl md:text-xl sm:text-xs animate-bounce">
         <Link href={"/"}>Ahmad Yar'adùa</Link>
       </h2>
       <button

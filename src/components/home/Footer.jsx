@@ -6,8 +6,8 @@ import { Github, Linkedin, Twitter } from "lucide-react";
 
 function Footer() {
   return (
-    <footer className="w-full border-t-2 border-solid border-black dark:border-white dark:text-white font-medium text-lg">
-      <Layout className="py-8 flex items-center justify-between">
+    <footer className="w-full border-t-2 border-solid border-black dark:border-white dark:text-white font-medium text-lg sm:text-base">
+      <Layout className="py-8 flex items-center justify-between lg:flex-col lg:py-6">
         <span>{new Date().getFullYear()} &copy; All Rights Reserved</span>
         <div className="flex gap-2 mt-2">
           <motion.a
