@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function HireMe() {
   return (
-    <div className="fixed left-4 bottom-0  flex items-center justify-center md:absolute overflow-hidden md:right-8 md:left-auto md:top-0 md:bottom-auto">
+    <div className="fixed left-4 bottom-0  flex items-center justify-center md:absolute overflow-hidden md:right-8 sm:right-0 md:left-auto md:top-[60px] md:bottom-auto">
       <div className="w-48 h-auto flex items-center justify-center relative md:w-24">
         <img
           src="erasebg-transformed.png"

@@ -3,6 +3,7 @@ import Experience from "@/components/about/Experience";
 import Skills from "@/components/about/Skills";
 import AnimatedText from "@/components/AnimatedText";
 import Layout from "@/components/home/Layout";
+import TransitionEffect from "@/components/TransitionEffect";
 import { useInView, useSpring, useMotionValue } from "framer-motion";
 import Head from "next/head";
 import React, { useRef, useEffect } from "react";
@@ -38,6 +39,7 @@ function About() {
         <title>AhmaduYaradua | About Page</title>
         <meta name="description" content="any description" />
       </Head>
+      <TransitionEffect />
       <main className="flex w-full flex-col items-center justify-center dark:text-white">
         <Layout className="pt-16">
           <AnimatedText

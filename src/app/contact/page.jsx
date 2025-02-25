@@ -1,5 +1,13 @@
+"use client";
+import TransitionEffect from "@/components/TransitionEffect";
+
 function Contact() {
-  return <>This is the contact page</>;
+  return (
+    <>
+      <TransitionEffect />
+      <div>My contacts</div>
+    </>
+  );
 }
 
 export default Contact;
