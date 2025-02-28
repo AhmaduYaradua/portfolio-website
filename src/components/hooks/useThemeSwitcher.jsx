@@ -9,7 +9,7 @@ function useThemeSwitcher() {
     const userPref = window.localStorage.getItem("theme ");
 
     const handleChange = () => {
-      if (usePref) {
+      if (userPref) {
         let check = usePref === "dark" ? "dark" : "light";
         setMode(check);
         if (check === "dark") {

@@ -48,26 +48,36 @@ function About() {
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
-              <h2 className="mb-4 text-lg font-bold uppercase text-black/75 dark:text-white/75">
-                Biography
+              <h2 className="mb-4 text-lg font-bold uppercase text-black underline dark:text-white/75">
+                Skillset and Design Knowledge
               </h2>
               <p className="font-medium">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perferendis tempora voluptates non cupiditate architecto numquam
-                debitis officiis temporibus. Cum minus cumque earum culpa
-                corrupti repellendus commodi incidunt eveniet aspernatur est.
+                I am a full stack developer skilled in the MERN stack, with a
+                focus on building responsive web applications using React.js and
+                Tailwind CSS. I write clean, efficient code using JavaScript and
+                TypeScript, and I leverage Next.js for fast, dynamic web
+                experiences. My goal is to create intuitive user interfaces that
+                are both functional and visually appealing.
               </p>
+              <h2 className="mb-4 text-lg font-bold uppercase text-black pt-5 underline dark:text-white/75">
+                Passion for Learning and AdaptabilityPassion for Learning and
+                Adaptability
+              </h2>
               <p className="my-4 font-medium">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Debitis, quia dolorem, soluta ratione dicta consequatur, vero
-                quisquam perferendis eum dolor possimus expedita cum?
-                Accusantium, sunt ipsum? Eligendi praesentium magni corrupti.
+                I am passionate about technology and always eager to learn new
+                things. I stay updated with the latest tools and best practices
+                in web development. I adapt quickly to new challenges and enjoy
+                solving problems creatively, whether working in a team or on my
+                own.
               </p>
+              <h2 className="mb-4 text-lg font-bold uppercase text-black underline dark:text-white/75">
+                Hobbies and Personal Interests
+              </h2>
               <p className="font-medium">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Veritatis fugit ex laborum nobis eligendi eos molestiae fugiat,
-                aliquam, minima necessitatibus, odit consequatur saepe? Qui rem
-                accusamus est voluptate, optio perspiciatis!
+                When I’m not coding, I enjoy exploring new gadgets and keeping
+                up with tech trends. I also have a passion for photography and
+                love watching movies and TV shows. These hobbies keep me
+                inspired and help me stay creative in my work.
               </p>
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-black bg-white p-8 dark:bg-black dark:border-white xl:col-span-4 md:order-1 md:col-span-8">
@@ -81,7 +91,7 @@ function About() {
             <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3">
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={50} />+
+                  <AnimatedNumbers value={2} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-black/75 dark:text-white/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Satisied clients
@@ -90,7 +100,7 @@ function About() {
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={40} />+
+                  <AnimatedNumbers value={6} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-black/75 dark:text-white/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Projects completed
@@ -99,7 +109,7 @@ function About() {
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={4} />+
+                  <AnimatedNumbers value={1} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-black/75 dark:text-white/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Years of experience

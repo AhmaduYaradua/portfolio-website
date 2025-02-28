@@ -90,8 +90,6 @@ function Navbar() {
 
           <CustomLink href={"/projects"} title="Projects" className="mx-4" />
 
-          <CustomLink href={"/contact"} title="Contacts" className="ml-4" />
-
           <button
             onClick={() => setMode(mode === "light" ? "dark" : "light")}
             className={`ml-10  items-center justify-center rounded-full p-1 ${
@@ -132,13 +130,6 @@ function Navbar() {
               toggle={handleClick}
               href={"/projects"}
               title="Projects"
-              className=""
-            />
-
-            <CustomMobileLink
-              toggle={handleClick}
-              href={"/contact"}
-              title="Contacts"
               className=""
             />
 

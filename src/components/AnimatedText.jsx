@@ -1,4 +1,4 @@
-import { animate, delay, motion, stagger } from "framer-motion";
+import { motion } from "framer-motion";
 
 const qoute = {
   initial: {

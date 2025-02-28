@@ -116,7 +116,7 @@ function Projects() {
                 type="Featured project"
                 title="E commerce mockup"
                 summary="Koatz is an e commerce website mockup that entails key features of an e commerce project"
-                img="e-commerce.png"
+                img="koatz2.png"
                 link="https://e-commerce-project-kappa-ten.vercel.app/"
                 github="https://github.com/AhmaduYaradua/e-commerce-project.git"
               />
@@ -124,33 +124,31 @@ function Projects() {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Featured project"
-                title="E commerce mockup"
-                img="e-commerce.png"
-                link="https://e-commerce-project-kappa-ten.vercel.app/"
-                github="https://github.com/AhmaduYaradua/e-commerce-project.git"
+                title="Weather App"
+                img="weatherApp.png"
+                link="https://weather-app-project-two-green.vercel.app/"
+                github="https://github.com/AhmaduYaradua/weather-app-project.git"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Featured project"
-                title="E commerce mockup"
-                img="e-commerce.png"
-                link="https://e-commerce-project-kappa-ten.vercel.app/"
-                github="https://github.com/AhmaduYaradua/e-commerce-project.git"
+                title="Movie App"
+                img="movieApp.png"
+                link="https://react-hooks-checkpoint-sandy.vercel.app/"
+                github="https://github.com/AhmaduYaradua/react-hooks-checkpoint.git"
               />
             </div>
             <div className="col-span-12 sm:col-span-12">
               <FeaturedProject
                 type="Featured project"
-                title="E commerce mockup"
-                summary="Koatz is an e commerce website mockup that entails key features of an e commerce project"
-                img="e-commerce.png"
-                link="https://e-commerce-project-kappa-ten.vercel.app/"
-                github="https://github.com/AhmaduYaradua/e-commerce-project.git"
+                title="Asos checkout page mockup"
+                summary="This is a checkout page mockup of Asos designed with pure Html,CSS and Javascript"
+                img="adidas.png"
+                link="https://dom-shopping-cart-project.vercel.app/"
+                github="https://github.com/AhmaduYaradua/react-hooks-checkpoint.git"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">Project-3</div>
-            <div className="col-span-6 sm:col-span-12">Project-4</div>
           </div>
         </Layout>
       </main>
