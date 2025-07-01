@@ -55,9 +55,17 @@ function Experience() {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
+            position="Frontend Developer intern"
+            company="Megadel Africa"
+            time="2025-present"
+            companyLink="www.megadelafrica.com"
+            address="Abuja,Nigeria"
+            work="Work with a team responsible for developing and maintaining web applications including ..............."
+          />
+          <Details
             position="Software Engineer"
             company="Gomycode"
-            time="2024-present"
+            time="2024-2025"
             companyLink="www.gomycode.com"
             address="Abuja,Nigeria"
             work="Work with a team responsible for developing and maintaining web applications including ..............."
