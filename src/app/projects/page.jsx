@@ -124,6 +124,24 @@ function Projects() {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Featured project"
+                title="Architectural consulting app"
+                img="enovaafri.png"
+                link="https://enova-africa.vercel.app/"
+                github="https://github.com/AhmaduYaradua/enova-africa.git"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Featured project"
+                title="Health App"
+                img="eat2wealth.png"
+                link="https://eattowealth.com/"
+                github="https://github.com/AhmaduYaradua/eat-to-wealth-project.git"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Featured project"
                 title="Weather App"
                 img="weatherApp.png"
                 link="https://weather-app-project-two-green.vercel.app/"
