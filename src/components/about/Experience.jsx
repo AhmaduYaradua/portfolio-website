@@ -53,37 +53,21 @@ function Experience() {
           style={{ scaleY: scrollYProgress }}
           className="absolute left-9 top-0 w-[4px] h-full bg-black dark:bg-white origin-top md:w-[2px] md:left-[30px] xs:left-[20px] "
         />
+
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
+          <Details
+            position="Software Engineer"
+            company="Starkweb technologies"
+            time="2025-present"
+            companyLink="www.starkwebtechnologies.com"
+            work="Work with a team responsible for developing and maintaining web applications including ..............."
+          />
           <Details
             position="Frontend Developer intern"
             company="Megadel Africa"
-            time="2025-present"
+            time="April 2025-October 2025"
             companyLink="www.megadelafrica.com"
             address="Abuja,Nigeria"
-            work="Work with a team responsible for developing and maintaining web applications including ..............."
-          />
-          <Details
-            position="Software Engineer"
-            company="Gomycode"
-            time="2024-2025"
-            companyLink="www.gomycode.com"
-            address="Abuja,Nigeria"
-            work="Work with a team responsible for developing and maintaining web applications including ..............."
-          />
-          <Details
-            position="Junior Architect"
-            company="Enova Synergy Limited,"
-            time="2023-2024"
-            companyLink="/"
-            address="Abuja,Nigeria"
-            work="Work with a team responsible for developing and maintaining web applications including ..............."
-          />
-          <Details
-            position="Supervisory Roler"
-            company="Afdin construction"
-            time="2022-2023"
-            companyLink="/"
-            address="Katsina,Nigeria"
             work="Work with a team responsible for developing and maintaining web applications including ..............."
           />
         </ul>
